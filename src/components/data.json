@@ -1,0 +1,447 @@
+{
+  "ITM001": {
+    "itemInfo": { "itemName": "Amoxicillin 500mg" },
+    "purchaseOrders": [
+      {
+        "poNo": "PO-001",
+        "date": "2026-03-01",
+        "isAuthorized": true,
+        "qty": 100,
+        "amount": 10.0
+      },
+      {
+        "poNo": "PO-002",
+        "date": "2026-03-15",
+        "isAuthorized": false,
+        "qty": 50,
+        "amount": 10.5
+      }
+    ],
+    "grn": [
+      {
+        "grnNo": "GRN-01",
+        "poNo": "PO-001",
+        "date": "2026-03-05",
+        "isAuthorized": true,
+        "batch": "B1",
+        "qty": 100,
+        "amount": 1000,
+        "sellingPrice": 15,
+        "freeQty": 2,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "grnNo": "GRN-02",
+        "poNo": "PO-002",
+        "date": "2026-03-20",
+        "isAuthorized": true,
+        "batch": "B2",
+        "qty": 50,
+        "amount": 525,
+        "sellingPrice": 16,
+        "freeQty": 0,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "invoice": [
+      {
+        "invNo": "INV-101",
+        "patientId": "P01",
+        "name": "John Doe",
+        "gender": "Male",
+        "date": "2026-03-10",
+        "batch": "B1",
+        "qty": 10,
+        "amount": 150,
+        "totalAmount": 145,
+        "discount": 5,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "invNo": "INV-102",
+        "patientId": "P02",
+        "name": "Jane Smith",
+        "gender": "Female",
+        "date": "2026-03-12",
+        "batch": "B1",
+        "qty": 5,
+        "amount": 75,
+        "totalAmount": 75,
+        "discount": 0,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "returns": [
+      {
+        "returnNo": "RET-01",
+        "invNo": "INV-101",
+        "date": "2026-03-11",
+        "remark": "Expired",
+        "batch": "B1",
+        "qty": 2,
+        "amount": 30,
+        "total": 30
+      }
+    ]
+  },
+  "ITM002": {
+    "itemInfo": { "itemName": "Paracetamol 500mg" },
+    "purchaseOrders": [
+      {
+        "poNo": "PO-105",
+        "date": "2026-03-02",
+        "isAuthorized": true,
+        "qty": 1000,
+        "amount": 1.2
+      },
+      {
+        "poNo": "PO-108",
+        "date": "2026-03-20",
+        "isAuthorized": true,
+        "qty": 500,
+        "amount": 1.25
+      }
+    ],
+    "grn": [
+      {
+        "grnNo": "GRN-55",
+        "poNo": "PO-105",
+        "date": "2026-03-06",
+        "isAuthorized": true,
+        "batch": "B-P01",
+        "qty": 1000,
+        "amount": 1200,
+        "sellingPrice": 3,
+        "freeQty": 50,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "grnNo": "GRN-60",
+        "poNo": "PO-108",
+        "date": "2026-03-22",
+        "isAuthorized": false,
+        "batch": "B-P02",
+        "qty": 500,
+        "amount": 625,
+        "sellingPrice": 3,
+        "freeQty": 0,
+        "isPaid": true,
+        "paymentType": "Cash"
+      }
+    ],
+    "invoice": [
+      {
+        "invNo": "INV-501",
+        "patientId": "P05",
+        "name": "Bob Ross",
+        "gender": "Male",
+        "date": "2026-03-25",
+        "batch": "B-P01",
+        "qty": 30,
+        "amount": 90,
+        "totalAmount": 80,
+        "discount": 10,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "invNo": "INV-502",
+        "patientId": "P06",
+        "name": "Alice Cooper",
+        "gender": "Female",
+        "date": "2026-03-26",
+        "batch": "B-P01",
+        "qty": 20,
+        "amount": 60,
+        "totalAmount": 60,
+        "discount": 0,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "returns": [
+      {
+        "returnNo": "RET-05",
+        "invNo": "INV-501",
+        "date": "2026-03-27",
+        "remark": "Damaged",
+        "batch": "B-P01",
+        "qty": 5,
+        "amount": 15,
+        "total": 15
+      }
+    ]
+  },
+  "ITM003": {
+    "itemInfo": { "itemName": "Metformin 850mg" },
+    "purchaseOrders": [
+      {
+        "poNo": "PO-201",
+        "date": "2026-03-05",
+        "isAuthorized": true,
+        "qty": 300,
+        "amount": 5.0
+      },
+      {
+        "poNo": "PO-205",
+        "date": "2026-03-10",
+        "isAuthorized": true,
+        "qty": 300,
+        "amount": 5.0
+      }
+    ],
+    "grn": [
+      {
+        "grnNo": "GRN-20",
+        "poNo": "PO-201",
+        "date": "2026-03-08",
+        "isAuthorized": true,
+        "batch": "B-M1",
+        "qty": 300,
+        "amount": 1500,
+        "sellingPrice": 8,
+        "freeQty": 10,
+        "isPaid": false,
+        "paymentType": "Credit"
+      },
+      {
+        "grnNo": "GRN-25",
+        "poNo": "PO-205",
+        "date": "2026-03-12",
+        "isAuthorized": true,
+        "batch": "B-M2",
+        "qty": 300,
+        "amount": 1500,
+        "sellingPrice": 8,
+        "freeQty": 5,
+        "isPaid": true,
+        "paymentType": "Cash"
+      }
+    ],
+    "invoice": [
+      {
+        "invNo": "INV-900",
+        "patientId": "P99",
+        "name": "Sarah Connor",
+        "gender": "Female",
+        "date": "2026-03-15",
+        "batch": "B-M1",
+        "qty": 60,
+        "amount": 480,
+        "totalAmount": 450,
+        "discount": 30,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "invNo": "INV-905",
+        "patientId": "P101",
+        "name": "Tony Stark",
+        "gender": "Male",
+        "date": "2026-03-18",
+        "batch": "B-M1",
+        "qty": 30,
+        "amount": 240,
+        "totalAmount": 240,
+        "discount": 0,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "returns": [
+      {
+        "returnNo": "RET-12",
+        "invNo": "INV-900",
+        "date": "2026-03-16",
+        "remark": "Allergic",
+        "batch": "B-M1",
+        "qty": 50,
+        "amount": 400,
+        "total": 400
+      }
+    ]
+  },
+  "ITM004": {
+    "itemInfo": { "itemName": "Omeprazole 20mg" },
+    "purchaseOrders": [
+      {
+        "poNo": "PO-33",
+        "date": "2026-03-01",
+        "isAuthorized": true,
+        "qty": 200,
+        "amount": 4.5
+      },
+      {
+        "poNo": "PO-34",
+        "date": "2026-03-02",
+        "isAuthorized": false,
+        "qty": 200,
+        "amount": 4.5
+      }
+    ],
+    "grn": [
+      {
+        "grnNo": "GRN-404",
+        "poNo": "PO-33",
+        "date": "2026-03-05",
+        "isAuthorized": true,
+        "batch": "Z-99",
+        "qty": 200,
+        "amount": 900,
+        "sellingPrice": 10,
+        "freeQty": 0,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "grnNo": "GRN-405",
+        "poNo": "PO-34",
+        "date": "2026-03-06",
+        "isAuthorized": true,
+        "batch": "Z-100",
+        "qty": 200,
+        "amount": 900,
+        "sellingPrice": 10,
+        "freeQty": 0,
+        "isPaid": true,
+        "paymentType": "Cash"
+      }
+    ],
+    "invoice": [
+      {
+        "invNo": "INV-301",
+        "patientId": "P-A1",
+        "name": "Bruce Wayne",
+        "gender": "Male",
+        "date": "2026-03-10",
+        "batch": "Z-99",
+        "qty": 14,
+        "amount": 140,
+        "totalAmount": 140,
+        "discount": 0,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "invNo": "INV-302",
+        "patientId": "P-A2",
+        "name": "Selina Kyle",
+        "gender": "Female",
+        "date": "2026-03-11",
+        "batch": "Z-99",
+        "qty": 7,
+        "amount": 70,
+        "totalAmount": 65,
+        "discount": 5,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "returns": [
+      {
+        "returnNo": "RET-99",
+        "invNo": "INV-302",
+        "date": "2026-03-12",
+        "remark": "Changed Mind",
+        "batch": "Z-99",
+        "qty": 7,
+        "amount": 70,
+        "total": 70
+      }
+    ]
+  },
+  "ITM005": {
+    "itemInfo": { "itemName": "Cetirizine 10mg" },
+    "purchaseOrders": [
+      {
+        "poNo": "PO-400",
+        "date": "2026-02-25",
+        "isAuthorized": true,
+        "qty": 1000,
+        "amount": 0.5
+      },
+      {
+        "poNo": "PO-401",
+        "date": "2026-03-10",
+        "isAuthorized": true,
+        "qty": 1000,
+        "amount": 0.55
+      }
+    ],
+    "grn": [
+      {
+        "grnNo": "GRN-700",
+        "poNo": "PO-400",
+        "date": "2026-03-01",
+        "isAuthorized": true,
+        "batch": "CET-1",
+        "qty": 1000,
+        "amount": 500,
+        "sellingPrice": 2,
+        "freeQty": 100,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "grnNo": "GRN-701",
+        "poNo": "PO-401",
+        "date": "2026-03-15",
+        "isAuthorized": false,
+        "batch": "CET-2",
+        "qty": 1000,
+        "amount": 550,
+        "sellingPrice": 2,
+        "freeQty": 50,
+        "isPaid": false,
+        "paymentType": "Credit"
+      }
+    ],
+    "invoice": [
+      {
+        "invNo": "INV-800",
+        "patientId": "P-B8",
+        "name": "Peter Parker",
+        "gender": "Male",
+        "date": "2026-03-05",
+        "batch": "CET-1",
+        "qty": 30,
+        "amount": 60,
+        "totalAmount": 60,
+        "discount": 0,
+        "isPaid": true,
+        "paymentType": "Cash"
+      },
+      {
+        "invNo": "INV-801",
+        "patientId": "P-B9",
+        "name": "Mary Jane",
+        "gender": "Female",
+        "date": "2026-03-06",
+        "batch": "CET-1",
+        "qty": 30,
+        "amount": 60,
+        "totalAmount": 50,
+        "discount": 10,
+        "isPaid": true,
+        "paymentType": "Cash"
+      }
+    ],
+    "returns": [
+      {
+        "returnNo": "RET-88",
+        "invNo": "INV-800",
+        "date": "2026-03-07",
+        "remark": "Wrong Item",
+        "batch": "CET-1",
+        "qty": 10,
+        "amount": 20,
+        "total": 20
+      }
+    ]
+  }
+}
