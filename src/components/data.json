@@ -119,19 +119,6 @@
         "freeQty": 50,
         "isPaid": true,
         "paymentType": "Cash"
-      },
-      {
-        "grnNo": "GRN-60",
-        "poNo": "PO-108",
-        "date": "2026-03-22",
-        "isAuthorized": false,
-        "batch": "B-P02",
-        "qty": 500,
-        "amount": 625,
-        "sellingPrice": 3,
-        "freeQty": 0,
-        "isPaid": true,
-        "paymentType": "Cash"
       }
     ],
     "invoice": [
